@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.batallanaval.ControldeJuego">
+   <children>
+      <Label fx:id="labelBarco" layoutX="26.0" layoutY="367.0" text="Barco1" />
+      <Button fx:id="btnEmpezarJuego" layoutX="464.0" layoutY="714.0" mnemonicParsing="false" onAction="#btnEmpezarJuego" text="Empezar Juego" />
+   </children>
+</AnchorPane>
